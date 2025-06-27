@@ -18,3 +18,5 @@ Los hallazgos de este análisis podrían proporcionar información valiosa para:
 * Guiar futuras investigaciones médicas sobre la inmunidad y el COVID-19.
 
 **Limitaciones Anticipadas**: Se prevé que el dataset contenga un número significativo de valores faltantes, particularmente en las columnas de fecha, lo que requerirá una limpieza de datos cuidadosa y podría limitar ciertas líneas de análisis temporal.
+
+**Link**: https://coviddataset19.netlify.app/
