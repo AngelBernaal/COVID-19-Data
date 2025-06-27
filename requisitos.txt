@@ -1,0 +1,52 @@
+REQUISITOS DEL PROYECTO
+
+1.  ENTORNO DE DESARROLLO:
+    * Jupyter Notebook (o JupyterLab).
+    * Python 3.x.
+
+2.  LIBRERÍAS Y DEPENDENCIAS:
+    * pandas.
+    * numpy.
+    * matplotlib.
+    * seaborn.
+    * plotly (plotly.express).
+
+3.  DATOS:
+    * Dataset de Kaggle: "COVID-19 Reinfection and Health Dataset".
+    * El dataset debe estar ubicado en una ruta accesible desde el Jupyter Notebook.
+
+4.  ESTRUCTURA DEL PROYECTO:
+    * Carpeta principal del proyecto.
+    * Subcarpeta notebooks/.
+    * Subcarpeta data/.
+    * Archivo README.md.
+    * Archivo requirements.txt.
+
+5.  OBJETIVOS DEL PROYECTO (Análisis Exploratorio de Datos - EDA):
+    * Carga y comprensión inicial de los datos.
+    * Limpieza de datos:
+        * Manejo de valores nulos (NaNs).
+        * Estandarización de columnas categóricas.
+        * Conversión de tipos de datos.
+        * Creación de 'Age_Group'.
+        * Estandarización de la columna 'Reinfection' a 'yes'/'no'.
+    * Análisis de la reinfección de COVID-19 por variables demográficas:
+        * Género.
+        * Edad (mediante agrupación por rangos).
+        * Región.
+    * Análisis de la reinfección de COVID-19 por factores de salud:
+        * Condiciones preexistentes.
+        * Estado de vacunación.
+        * Gravedad de los síntomas.
+        * Hospitalización, Admisión en UCI, Soporte de Ventilador.
+        * Síntomas de COVID persistente (Long COVID).
+        * Índice de Masa Corporal (BMI).
+        * Estado de fumador.
+    * Visualización de resultados claros y concisos utilizando Matplotlib, Seaborn y Plotly.
+    * Deducción de conclusiones significativas a partir de las visualizaciones y análisis.
+
+6.  ENTREGABLES:
+    * Archivo .ipynb.
+    * Dataset utilizado.
+    * Archivo requirements.txt.
+    * Archivo README.md.
